@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #FFD700; /* Gold color for headlines */
+    text-align: center;
+    margin: 20px 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+.timeline-item {
+    background-color: #1e1e1e;
+    margin: 20px auto;
+    padding: 10px;
+    border-left: 4px solid #FFD700;
+    max-width: 600px;
+    text-align: left;
+}
+
+.skills-section, .contact-section, .about-section, .education-section, .experience-section, .leadership-section {
+    background-color: #1e1e1e; 
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 600px;
+    text-align:left;
+}
+
+.menu-bar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.menu-bar button {
+    background-color: #FFD700;
+    border: none;
+    color: #121212;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-bar button:hover {
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .timeline-item, .skills-section, .contact-section , .about-section, .education-section, .experience-section, .leadership-section{
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .menu-bar {
+        top: 10px;
+        right: 10px;
+    }
+}
